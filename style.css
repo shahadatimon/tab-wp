@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.up-r{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.up-l{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #f0f0f1;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* heaeder-top */
+.header-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1d2327;
+    width: 100%;
+    height: 30px;
+    clear: both;
+    z-index: 1;
+    padding: 0 0px 0;
+}
+.header-contant-left{
+    width: 50%;
+    float: left;
+    line-height: 25px;
+    color: #c3c4c7;
+    
+}
+.header-contant-right{
+    line-height: 25px;
+    color: #c3c4c7;
+    
+}
+.left-all-contant img{
+    margin-right: 40px;
+    margin-left: 25px;
+}
+.left-all-contant #top-1{
+    position: relative;
+}
+.left-all-contant #top-1::before{
+    content: '\f015';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+.left-all-contant #top-2{
+    position: relative;
+    margin-left: 35px;
+}
+.left-all-contant #top-2::before{
+    content: '\f07c';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: -20px;
+    top: 0;
+}
+
+/* header-top-right */
+.header-contant-right{
+    width: 50%;
+    float: right;
+    text-align: right;
+    line-height: 30px;
+}
+.header-contant-right img{
+    margin-right: 20px;
+}
+.header-contant-right .right_left{
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* main-body-start */
+
+.main-body{
+    width: 100%;
+    clear: both;
+    margin:18px auto; 
+    padding:0px 0px 0px;  
+}
+.main-body .main-body-left{
+    width: 16%;
+    background-color: #1d2327;
+    height: 1100px;
+    float: left;
+    padding-top: 25px;
+}
+.main-body .main-body-left h4{
+    color: #f0f0f1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+.main-body .main-body-left h4#b1::before{
+   content: "\f509";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b2::before{
+   content: "\e076";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b3::before{
+   content: "\f458";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b4::before{
+   content: "\f368";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b5::before{
+   content: "\f2bb";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b6::before{
+   content: "\f042";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b7::before{
+   content: "\f2b9";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b8::before{
+   content: "\f42c";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b9::before{
+   content: "\f0b2";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b10::before{
+   content: "\f559";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b11::before{
+   content: "\f77d";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b12::before{
+   content: "\f647";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b13::before{
+   content: "\f780";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b14::before{
+   content: "\f133";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b15::before{
+   content: "\f5da";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b16::before{
+   content: "\f466";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b17::before{
+   content: "\e05b";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b18::before{
+   content: "\f0b1";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b19::before{
+   content: "\f469";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b20::before{
+   content: "\f188";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b21::before{
+   content: "\f837";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b22::before{
+   content: "\f64a";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b23::before{
+   content: "\f133";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b24::before{
+   content: "\f083";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b25::before{
+   content: "\f785";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+.main-body .main-body-left h4#b26::before{
+   content: "\f218";
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 15px;
+}
+
+
+/* body-right */
+
+.main-body .main-body-right{
+    width: 84%;
+    float: right;
+    background-color: #f0f0f1;
+    height: 1100px;
+    margin-top: 15px;
+}
+.main-body .main-body-right .main-body-top{
+    width: 550px;
+    height: 250px;
+    background-color: white;
+    margin: 20px 25px;
+    padding:20px 25px ;
+}
+.main-body .main-body-right .main-body-top p{
+    line-height: 45px;
+}
+.main-body .main-body-right .main-body-top #boro{
+    color: white;
+    background-color: #1da1f1;
+    padding: 8px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+.main-body .main-body-right .main-body-top #soto{
+    color: #1da1f1;
+    border: 1px solid #1da1f1;
+    margin-left: 10px;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+/* main=top-n */
+.main-body-top-n{
+    width: 800px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    margin: 20px 25px;
+    padding:5px 25px ;
+}
+.main-top-n-button{
+    display: flex;
+    justify-content: right;
+}
+.main-body-top-n button{ 
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+}
+.main-body-top-n #top-n{
+  display:inline-block;
+  background-color: #7fc6a6;
+  padding: 20px 25px;
+  margin-top: 10px;
+}
+.main-body-img img{
+  width: 95%;
+  overflow: hidden;
+  margin-left:22px;
+}
+
+/* all active class */
+.main-body-left h4.active{
+    background-color: #2271b1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 0;
+}
+.main-body-left h4::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #ffffff transparent transparent;
+}
